@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\nodejs\\node.exe',
+1 verbose cli   'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bcrypt-nodejs',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json userStory@1.0.0 No repository field.
+5 warn package.json userStory@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'bcrypt-nodejs@0.0.3', null ]
+8 verbose cache add name=undefined spec="bcrypt-nodejs@0.0.3" args=["bcrypt-nodejs@0.0.3",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'bcrypt-nodejs@0.0.3',
+9 verbose parsed url   path: 'bcrypt-nodejs@0.0.3',
+9 verbose parsed url   href: 'bcrypt-nodejs@0.0.3' }
+10 verbose cache add name="bcrypt-nodejs" spec="0.0.3" args=["bcrypt-nodejs","0.0.3"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '0.0.3',
+11 verbose parsed url   path: '0.0.3',
+11 verbose parsed url   href: '0.0.3' }
+12 verbose addNamed [ 'bcrypt-nodejs', '0.0.3' ]
+13 verbose addNamed [ '0.0.3', '0.0.3' ]
+14 silly lockFile 333ce57f-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+15 verbose lock bcrypt-nodejs@0.0.3 C:\Users\Anton\AppData\Roaming\npm-cache\333ce57f-bcrypt-nodejs-0-0-3.lock
+16 verbose request where is /bcrypt-nodejs
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2c6df58ff8c8313c
+19 verbose url raw /bcrypt-nodejs
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt-nodejs' ]
+21 verbose url resolved https://registry.npmjs.org/bcrypt-nodejs
+22 verbose request where is https://registry.npmjs.org/bcrypt-nodejs
+23 info trying registry request attempt 1 at 17:03:16
+24 http GET https://registry.npmjs.org/bcrypt-nodejs
+25 http 404 https://registry.npmjs.org/bcrypt-nodejs
+26 silly registry.get cb [ 404,
+26 silly registry.get   { 'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '2',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 27 Feb 2016 14:03:24 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-fra1245-FRA',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1456581803.768266,VS0,VE742' } ]
+27 silly lockFile 333ce57f-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+28 silly lockFile 333ce57f-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+29 error 404 Not Found
+29 error 404
+29 error 404 'bcrypt-nodejs' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404 It was specified as a dependency of 'userStory'
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Windows_NT 6.2.9200
+31 error command "E:\\nodejs\\node.exe" "E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bcrypt-nodejs" "--save"
+32 error cwd E:\virtuals\www\userStory
+33 error node -v v0.10.35
+34 error npm -v 1.4.28
+35 error code E404
+36 verbose exit [ 1, true ]
