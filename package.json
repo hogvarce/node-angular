@@ -1,6 +1,6 @@
 {
   "name": "userStory",
-  "version": "0.10.35",
+  "version": "1.0.0",
   "description": "this is a story user app",
   "main": "server.js",
   "scripts": {
